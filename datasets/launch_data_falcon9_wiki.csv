@@ -16,7 +16,7 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 15,Cape Canaveral,DSCOVR,570 ,HEO,USAF NASA NOAA,Success,F9 v1.1[8],Controlled,11 February 2015,23:03
 16,Cape Canaveral,ABS-3A,"4,159 ",GTO,ABS Eutelsat,Success,F9 v1.1[8],No attempt,2 March 2015,03:50
 17,Cape Canaveral,SpaceX CRS-6,"1,898 ",LEO,NASA (CRS),Success,F9 v1.1[8],Failure,14 April 2015,20:10
-18,Cape Canaveral,TürkmenÄlem 52°E / MonacoSAT,"4,707 ",GTO,Turkmenistan NationalSpace Agency[88],Success,F9 v1.1[8],No attempt,27 April 2015,23:03
+18,Cape Canaveral,TürkmenÄlem 52°E / MonacoSAT,"4,707 ",GTO,Turkmenistan NationalSpace Agency,Success,F9 v1.1[8],No attempt,27 April 2015,23:03
 19,Cape Canaveral,SpaceX CRS-7,"1,952 ",LEO,NASA (CRS),Failure,F9 v1.1[8],Precluded,28 June 2015,14:21
 20,Cape Canaveral,Orbcomm-OG2,"2,034 ",LEO,Orbcomm,Success,F9 FT[98],Success,22 December 2015,01:29
 21,VAFB,Jason-3,553 ,LEO,NASA (LSP) NOAA CNES,Success,F9 v1.1[8],Failure,17 January 2016,18:42
@@ -45,10 +45,10 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 44,KSC,Koreasat 5A,"3,500 ",GTO,KT Corporation,Success,F9 B4[219],Success,30 October 2017,19:34
 45,Cape Canaveral,SpaceX CRS-13,"2,205 ",LEO,NASA (CRS),Success,F9 FTB1035.2,Success,15 December 2017,15:36
 46,VAFB,Iridium NEXT,"9,600 ",Polar,Iridium Communications,Success,F9 FTB1036.2,Controlled,23 December 2017,01:27
-47,CCAFS,Zuma,Classifie,LEO,Northrop Grumman [f][238],Success,F9 B4[238],Success,8 January 2018,01:00
+47,CCAFS,Zuma,Classifie,LEO,Northrop Grumman,Success,F9 B4[238],Success,8 January 2018,01:00
 48,CCAFS,GovSat-1,"4,230 ",GTO,SES,Success,F9 FTB1032.2,Controlled,31 January 2018,21:25
 49,VAFB,Paz,"2,150 ",SSO,Hisdesat exactEarth SpaceX,Success,F9 FTB1038.2,No attempt,22 February 2018,14:17
-50,CCAFS,Hispasat 30W-6,"6,092 ",GTO,Hispasat[277] NovaWurks,Success,F9 B4[108],No attempt,6 March 2018,05:33
+50,CCAFS,Hispasat 30W-6,"6,092 ",GTO,Hispasat NovaWurks,Success,F9 B4[108],No attempt,6 March 2018,05:33
 51,VAFB,Iridium NEXT,"9,600 ",Polar,Iridium Communications,Success,F9 B4B1041.2,No attempt,30 March 2018,14:14
 52,CCAFS,SpaceX CRS-14,"2,647 ",LEO,NASA (CRS),Success,F9 B4B1039.2,No attempt,2 April 2018,20:30
 53,CCAFS,Transiting Exoplanet Survey Satellite,362 ,HEO,NASA (LSP),Success,F9 B4[268],Success,18 April 2018,22:51
@@ -77,7 +77,7 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 76,CCAFS,SpaceX CRS-19,"2,617 ",LEO,NASA (CRS),Success,F9 B5[482],Success,5 December 2019,17:29
 77,CCAFS,JCSat-18,"6,956 ",GTO,Sky Perfect JSATKacific 1,Success,F9 B5B1056.3,Success,17 December 2019,00:10
 78,CCAFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1049.4,Success,7 January 2020,02:19:21
-79,KSC,Crew Dragon in-flight abort test,"12,050 ",Sub-orbital,NASA (CTS)[497],Success,F9 B5B1046.4,No attempt,19 January 2020,15:30
+79,KSC,Crew Dragon in-flight abort test,"12,050 ",Sub-orbital,NASA (CTS),Success,F9 B5B1046.4,No attempt,19 January 2020,15:30
 80,CCAFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1051.3,Success,29 January 2020,14:07
 81,CCAFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1056.4,Failure,17 February 2020,15:05
 82,CCAFS,SpaceX CRS-20,"1,977 ",LEO,NASA (CRS),Success,F9 B5B1059.2,Success,7 March 2020,04:50
@@ -86,7 +86,7 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 85,KSC,Crew Dragon Demo-2,"12,530 ",LEO,NASA (CCDev),Success,F9 B5[518],Success,30 May 2020,19:22
 86,CCAFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1049.5,Success,4 June 2020,01:25
 87,CCAFS,Starlink,"15,410 ",LEO,SpaceXPlanet Labs,Success,F9 B5B1059.3,Success,13 June 2020,09:21
-88,CCAFS,GPS III,"4,311 ",MEO,U.S. Space Force[530],Success,F9 B5,Success,30 June 2020,20:10:46
+88,CCAFS,GPS III,"4,311 ",MEO,U.S. Space Force,Success,F9 B5,Success,30 June 2020,20:10:46
 89,CCAFS,ANASIS-II,"5,000–6,000 ",GTO,Republic of Korea Army,Success,F9 B5B1058.2,Success,20 July 2020,21:30
 90,KSC,Starlink,"14,932 ",LEO,SpaceXSpaceflight Industries (BlackSky),Success,F9 B5B1051.5,Success,7 August 2020,05:12
 91,CCAFS,Starlink,"~15,440 ",LEO,SpaceXPlanet Labs,Success,F9 B5B1049.6,Success,18 August 2020,14:31
@@ -96,7 +96,7 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 95,KSC,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1051.6,Success,18 October 2020,12:25:57
 96,CCAFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1060.3,Success,24 October 2020,15:31:34
 97,CCAFS,GPS III,"4,311 ",MEO,USSF,Success,F9 B5,Success,5 November 2020,23:24:23
-98,KSC,Crew-1,"~12,500 ",LEO,NASA (CCP)[497],Success,F9 B5[582],Success,16 November 2020,00:27
+98,KSC,Crew-1,"~12,500 ",LEO,NASA (CCP),Success,F9 B5[582],Success,16 November 2020,00:27
 99,VAFB,Sentinel-6 Michael Freilich (Jason-CS A),"1,192 ",LEO,NASA / NOAA / ESA / EUMETSAT,Success,F9 B5,Success,21 November 2020,17:17:08
 100,CCAFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5 ♺[590],Success,25 November 2020,02:13
 101,KSC,SpaceX CRS-21,"2,972 ",LEO,NASA (CRS),Success,F9 B5 ♺[592],Success,6 December 2020,16:17:08
@@ -112,7 +112,7 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 111,KSC,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5 ♺,Success,14 March 2021,10:01
 112,CCSFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1060.6,Success,24 March 2021,08:28
 113,CCSFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5 ♺,Success,7 April 2021,16:34
-114,KSC,Crew-2,"~13,000 ",LEO,NASA (CTS)[497],Success,F9 B5B1061.2,Success,23 April 2021,9:49
+114,KSC,Crew-2,"~13,000 ",LEO,NASA (CTS),Success,F9 B5B1061.2,Success,23 April 2021,9:49
 115,CCSFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1060.7,Success,29 April 2021,03:44
 116,KSC,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1049.9,Success,4 May 2021,19:01
 117,CCSFS,Starlink,"15,600 ",LEO,SpaceX,Success,F9 B5B1051.10,Success,9 May 2021,06:42
