@@ -1,4 +1,4 @@
-Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Version Booster,Booster landing,Datetime
+Flight_Number,Launch_Site,Payload,Payload_Mass,Orbit,Customer,Mission_Outcome,Booster_Version,Landing_Outcome,Datetime
 1,CCSFS SLC-40,Dragon Spacecraft Qualification Unit,0.0,LEO,SpaceX,Success,F9 v1.0 B0003.1,Failure (parachute),2010-06-04 18:45:00
 2,CCSFS SLC-40,Dragon,0.0,LEO,NASA (COTS) NRO,Success,F9 v1.0 B0004.1,Failure (parachute),2010-12-08 15:43:00
 3,CCSFS SLC-40,Dragon,525.0,LEO,NASA (COTS),Success,F9 v1.0 B0005.1,No attempt,2012-05-22 07:44:00
