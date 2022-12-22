@@ -7,26 +7,26 @@ Flight_Number,Launch_Site,Payload,Payload_Mass,Orbit,Customer,Mission_Outcome,Bo
 6,VAFB SLC-4E,CASSIOPE,500.0,Polar orbit,MDA,Success,F9 v1.1 B1003,Uncontrolled (ocean),2013-09-29 16:00:00
 7,CCSFS SLC-40,SES-8,3170.0,GTO,SES,Success,F9 v1.1 B1004,No attempt,2013-12-03 22:41:00
 8,CCSFS SLC-40,Thaicom 6,3325.0,GTO,Thaicom,Success,F9 v1.1,No attempt,2014-01-06 22:06:00
-9,CCSFS SLC-40,SpaceX CRS-3,2296.0,LEO,NASA (CRS),Success,F9 v1.1,Controlled (ocean),2014-04-18 19:25:00
-10,CCSFS SLC-40,Orbcomm-OG2,1316.0,LEO,Orbcomm,Success,F9 v1.1,Controlled (ocean),2014-07-14 15:15:00
-11,CCSFS SLC-40,AsiaSat 8,4535.0,GTO,AsiaSat,Success,F9 v1.1,No attempt,2014-08-05 08:00:00
-12,CCSFS SLC-40,AsiaSat 6,4428.0,GTO,AsiaSat,Success,F9 v1.1 B1011,No attempt,2014-09-07 05:00:00
-13,CCSFS SLC-40,SpaceX CRS-4,2216.0,LEO,NASA (CRS),Success,F9 v1.1 B1010,Uncontrolled (ocean),2014-09-21 05:52:00
-14,CCSFS SLC-40,SpaceX CRS-5,2395.0,LEO,NASA (CRS),Success,F9 v1.1 B1012,Failure (drone ship),2015-01-10 09:47:00
-15,CCSFS SLC-40,DSCOVR,570.0,HEO,USAF NASA NOAA,Success,F9 v1.1 B1013,Controlled (ocean),2015-02-11 23:03:00
-16,CCSFS SLC-40,ABS-3A,4159.0,GTO,ABS Eutelsat,Success,F9 v1.1 B1014,No attempt,2015-03-02 03:50:00
-17,CCSFS SLC-40,SpaceX CRS-6,1898.0,LEO,NASA (CRS),Success,F9 v1.1 B1015,Failure (drone ship),2015-04-14 20:10:00
-18,CCSFS SLC-40,TürkmenÄlem 52°E / MonacoSAT,4707.0,GTO,Turkmenistan NationalSpace Agency,Success,F9 v1.1 B1016,No attempt,2015-04-27 23:03:00
-19,CCSFS SLC-40,SpaceX CRS-7,1952.0,LEO,NASA (CRS),Failure,F9 v1.1 B1018,Precluded (drone ship),2015-06-28 14:21:00
-20,CCSFS SLC-40,Orbcomm-OG2,2034.0,LEO,Orbcomm,Success,F9 FT B1019.1,Success (ground pad),2015-12-22 01:29:00
+9,CCSFS LC-40,SpaceX CRS-3,2296.0,LEO,NASA (CRS),Success,F9 v1.1,Controlled (ocean),2014-04-18 19:25:00
+10,CCSFS LC-40,Orbcomm-OG2,1316.0,LEO,Orbcomm,Success,F9 v1.1,Controlled (ocean),2014-07-14 15:15:00
+11,CCSFS LC-40,AsiaSat 8,4535.0,GTO,AsiaSat,Success,F9 v1.1,No attempt,2014-08-05 08:00:00
+12,CCSFS LC-40,AsiaSat 6,4428.0,GTO,AsiaSat,Success,F9 v1.1 B1011,No attempt,2014-09-07 05:00:00
+13,CCSFS LC-40,SpaceX CRS-4,2216.0,LEO,NASA (CRS),Success,F9 v1.1 B1010,Uncontrolled (ocean),2014-09-21 05:52:00
+14,CCSFS LC-40,SpaceX CRS-5,2395.0,LEO,NASA (CRS),Success,F9 v1.1 B1012,Failure (drone ship),2015-01-10 09:47:00
+15,CCSFS LC-40,DSCOVR,570.0,HEO,USAF NASA NOAA,Success,F9 v1.1 B1013,Controlled (ocean),2015-02-11 23:03:00
+16,CCSFS LC-40,ABS-3A,4159.0,GTO,ABS Eutelsat,Success,F9 v1.1 B1014,No attempt,2015-03-02 03:50:00
+17,CCSFS LC-40,SpaceX CRS-6,1898.0,LEO,NASA (CRS),Success,F9 v1.1 B1015,Failure (drone ship),2015-04-14 20:10:00
+18,CCSFS LC-40,TürkmenÄlem 52°E / MonacoSAT,4707.0,GTO,Turkmenistan NationalSpace Agency,Success,F9 v1.1 B1016,No attempt,2015-04-27 23:03:00
+19,CCSFS LC-40,SpaceX CRS-7,1952.0,LEO,NASA (CRS),Failure,F9 v1.1 B1018,Precluded (drone ship),2015-06-28 14:21:00
+20,CCSFS LC-40,Orbcomm-OG2,2034.0,LEO,Orbcomm,Success,F9 FT B1019.1,Success (ground pad),2015-12-22 01:29:00
 21,VAFB SLC-4E,Jason-3,553.0,LEO,NASA (LSP) NOAA CNES,Success,F9 v1.1 B1017,Failure (drone ship),2016-01-17 18:42:00
-22,CCSFS SLC-40,SES-9,5271.0,GTO,SES,Success,F9 FT B1020.1,Failure (drone ship),2016-03-04 23:35:00
-23,CCSFS SLC-40,SpaceX CRS-8,3136.0,LEO,NASA (CRS),Success,F9 FT B1021.1,Success (drone ship),2016-04-08 20:43:00
-24,CCSFS SLC-40,JCSAT-14,4696.0,GTO,SKY Perfect JSAT Group,Success,F9 FT B1022.1,Success (drone ship),2016-05-06 05:21:00
-25,CCSFS SLC-40,Thaicom 8,3100.0,GTO,Thaicom,Success,F9 FT B1023.1,Success (drone ship),2016-05-27 21:39:00
-26,CCSFS SLC-40,ABS-2A,3600.0,GTO,ABS Eutelsat,Success,F9 FT B1024.1,Failure (drone ship),2016-06-15 14:29:00
-27,CCSFS SLC-40,SpaceX CRS-9,2257.0,LEO,NASA (CRS),Success,F9 FT B1025.1,Success (ground pad),2016-07-18 04:45:00
-28,CCSFS SLC-40,JCSAT-16,4600.0,GTO,SKY Perfect JSAT Group,Success,F9 FT B1026.1,Success (drone ship),2016-08-14 05:26:00
+22,CCSFS LC-40,SES-9,5271.0,GTO,SES,Success,F9 FT B1020.1,Failure (drone ship),2016-03-04 23:35:00
+23,CCSFS LC-40,SpaceX CRS-8,3136.0,LEO,NASA (CRS),Success,F9 FT B1021.1,Success (drone ship),2016-04-08 20:43:00
+24,CCSFS LC-40,JCSAT-14,4696.0,GTO,SKY Perfect JSAT Group,Success,F9 FT B1022.1,Success (drone ship),2016-05-06 05:21:00
+25,CCSFS LC-40,Thaicom 8,3100.0,GTO,Thaicom,Success,F9 FT B1023.1,Success (drone ship),2016-05-27 21:39:00
+26,CCSFS LC-40,ABS-2A,3600.0,GTO,ABS Eutelsat,Success,F9 FT B1024.1,Failure (drone ship),2016-06-15 14:29:00
+27,CCSFS LC-40,SpaceX CRS-9,2257.0,LEO,NASA (CRS),Success,F9 FT B1025.1,Success (ground pad),2016-07-18 04:45:00
+28,CCSFS LC-40,JCSAT-16,4600.0,GTO,SKY Perfect JSAT Group,Success,F9 FT B1026.1,Success (drone ship),2016-08-14 05:26:00
 29,VAFB SLC-4E,Iridium NEXT,9600.0,Polar,Iridium Communications,Success,F9 FT B1029.1,Success (drone ship),2017-01-14 17:54:00
 30,KSC LC-39A,SpaceX CRS-10,2490.0,LEO,NASA (CRS),Success,F9 FT B1031.1,Success (ground pad),2017-02-19 14:39:00
 31,KSC LC-39A,EchoStar 23,5600.0,GTO,EchoStar,Success,F9 FT B1030.1,No attempt,2017-03-16 06:00:00
