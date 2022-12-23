@@ -26,7 +26,9 @@ app.layout = html.Div(children=[
                   value='ALL',
                   placeholder='Select a Launch Site Here',
                   searchable=True),
-    dcc.Graph(id='success-pie-chart')
+    dcc.Graph(id='success-pie-chart'),
+    dcc.RangeSlider(id='payload-slider', min=min_payload, max=max_payload, step=1000, value=[min_payload, max_payload]),
+    dcc.Graph(id='success-payload-scatter-chart')
 ])
 
 @app.callback(Output(component_id='success-pie-chart', component_property='figure'), 
@@ -34,12 +36,41 @@ app.layout = html.Div(children=[
 def render_success_pie_chart(input_value):
     if input_value == 'ALL':
         filtered_df = spacex_df
-        fig = px.pie(data_frame=filtered_df, values='Class', names='Launch_Site', title='Total Successful Launches by Site')
+        fig = px.pie(data_frame=filtered_df, values='Class', 
+            names='Launch_Site', title='Total Successful Launches by Site')
     else:
         filtered_df = spacex_df[spacex_df['Launch_Site'] == input_value]
-        fig = px.pie(data_frame=filtered_df, names='Class', title=f'Total Successful Launches for {input_value}')
+        fig = px.pie(data_frame=filtered_df, names='Class', 
+            title=f'Total Successful Launches for {input_value}')
     return fig
 
 
+@app.callback(Output(component_id='success-payload-scatter-chart', component_property='figure'), 
+    Input(component_id='payload-slider', component_property='value'), 
+    Input(component_id='site-dropdown', component_property='value'))
+def render_success_payload_scatter(slider_range, launch_site):
+    if launch_site == 'ALL':
+        filtered_df = spacex_df[(spacex_df['Payload_Mass'] > slider_range[0]) & (spacex_df['Payload_Mass'] < slider_range[1])]
+        fig = px.scatter(data_frame=filtered_df, x='Payload_Mass', y='Class', color='Booster_Version_Category')
+    else:
+        filtered_df = spacex_df[(spacex_df['Payload_Mass'] > slider_range[0]) & (spacex_df['Payload_Mass'] < slider_range[1])]
+        filtered_df = filtered_df[filtered_df['Launch_Site'] == launch_site]
+        fig = px.scatter(data_frame=filtered_df, x='Payload_Mass', y='Class', color='Booster_Version_Category')
+    return fig
+
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+"""
+Which site has the largest successful launches?
+    CCSFS SCL-40 has the largest successful launches.
+Which site has the highest launch success rate?
+    CCSFS SCL-40 also has the highest launch success rate.
+Which payload range(s) has the highest launch success rate?
+    The highest launch success rate occurs in the 10-16k payload range.
+Which payload range(s) has the lowest launch success rate?
+    0-6k is the payload range with the lowest launch success rate.
+Which F9 Booster version (v1.0, v1.1, FT, B4, B5, etc.) has the highest
+launch success rate?
+    The B5 F9 booster version has the highest launch success rate.
+"""
