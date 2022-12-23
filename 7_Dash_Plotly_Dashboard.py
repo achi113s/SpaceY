@@ -37,7 +37,7 @@ def render_success_pie_chart(input_value):
         fig = px.pie(data_frame=filtered_df, values='Class', names='Launch_Site', title='Total Successful Launches by Site')
     else:
         filtered_df = spacex_df[spacex_df['Launch_Site'] == input_value]
-        fig = px.pie(data_frame=filtered_df, values='Class', names='Launch_Site', title=f'Total Successful Launches for {input_value}')
+        fig = px.pie(data_frame=filtered_df, values='Class', names='Class', title=f'Total Successful Launches for {input_value}')
     return fig
 
 
