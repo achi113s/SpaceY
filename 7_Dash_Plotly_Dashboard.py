@@ -27,6 +27,7 @@ app.layout = html.Div(children=[
                   placeholder='Select a Launch Site Here',
                   searchable=True),
     dcc.Graph(id='success-pie-chart'),
+    html.H3(children='Payload Mass Slider'),
     dcc.RangeSlider(id='payload-slider', min=min_payload, max=max_payload, step=1000, value=[min_payload, max_payload]),
     dcc.Graph(id='success-payload-scatter-chart')
 ])
@@ -51,11 +52,11 @@ def render_success_pie_chart(input_value):
 def render_success_payload_scatter(slider_range, launch_site):
     if launch_site == 'ALL':
         filtered_df = spacex_df[(spacex_df['Payload_Mass'] > slider_range[0]) & (spacex_df['Payload_Mass'] < slider_range[1])]
-        fig = px.scatter(data_frame=filtered_df, x='Payload_Mass', y='Class', color='Booster_Version_Category')
+        fig = px.scatter(data_frame=filtered_df, x='Payload_Mass', y='Class', color='Booster_Version_Category', title='Successful Landings by Payload Mass and Booster Version for All Sites')
     else:
         filtered_df = spacex_df[(spacex_df['Payload_Mass'] > slider_range[0]) & (spacex_df['Payload_Mass'] < slider_range[1])]
         filtered_df = filtered_df[filtered_df['Launch_Site'] == launch_site]
-        fig = px.scatter(data_frame=filtered_df, x='Payload_Mass', y='Class', color='Booster_Version_Category')
+        fig = px.scatter(data_frame=filtered_df, x='Payload_Mass', y='Class', color='Booster_Version_Category', title=f'Successful Landings by Payload Mass and Booster Version for {launch_site}')
     return fig
 
 if __name__ == '__main__':
