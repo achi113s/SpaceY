@@ -26,4 +26,8 @@ One reason for the inexpensiveness of these launches is that the first stage of 
 
 7. Dash Plotly Dashboard: A Python web app dashboard made using Plotly Dash. This dashboard showcases the proportion of successful landing attempts at each launch site and also shows a scatter plot of the relationship between rocket booster version, payload mass, and landing outcome. You can view the dashboard here: [PythonAnywhereDashboard](http://glat1957.pythonanywhere.com/).
 
+8. Predictive Modeling: Training a couple different models on the data. One-Hot encoding, train/test splitting, other basics of training and evaluating machine learning models.
+
+9. Ds-capstone-presentation: This is the presentation of all the work contained in the previous files. There is a KeyNote file and a PDF version of the presentation.
+
 
