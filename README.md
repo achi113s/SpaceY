@@ -24,6 +24,6 @@ One reason for the inexpensiveness of these launches is that the first stage of 
 
 6. Launch Sites Folium: Using the Folium library to do some analysis of the geographical features in the dataset. Where are the launch sites? Is there a correlation between launch site and landing success?
 
-7. Dash Plotly Dashboard: A Python web app dashboard made using Plotly Dash. This dashboard showcases the proportion of successful landing attempts at each launch site and also shows a scatter plot of the relationship between rocket booster version, payload mass, and landing outcome. You can view the dashboard here: [PythonAnywhereDashboard](glat1957.pythonanywhere.com).
+7. Dash Plotly Dashboard: A Python web app dashboard made using Plotly Dash. This dashboard showcases the proportion of successful landing attempts at each launch site and also shows a scatter plot of the relationship between rocket booster version, payload mass, and landing outcome. You can view the dashboard here: [PythonAnywhereDashboard](http://glat1957.pythonanywhere.com/).
 
 
